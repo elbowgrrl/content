@@ -35,8 +35,6 @@ However, the following code is valid due to the variable being declared outside 
 ```js example-good
 const x = "declared outside function";
 
-exampleFunction();
-
 function exampleFunction() {
   console.log("Inside function");
   console.log(x);
